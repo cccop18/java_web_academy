@@ -11,6 +11,10 @@ public class Teste {
         // System.out.println(vinicius.nome);
         vinicius.setNome("Vinicius Barros de Melo");
         System.out.println(vinicius.getNome());
+        Aluno alonso = new Aluno();
+        alonso.setMatricula("20230300023");
+        // vinicius.setMatricula("9999999999"); //O tipo Pessoa não tem matrícula
+
     }
 
 }
