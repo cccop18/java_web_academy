@@ -1,3 +1,5 @@
+package br.ufac.sgcm.model;
+
 public class Especialidade {
     private Long id;
     private String nome;
