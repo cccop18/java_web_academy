@@ -20,4 +20,8 @@ public class Especialidade {
         this.nome = nome;
     }
 
+    public String toString() {
+        return this.id + ": " + this.nome;
+    }
+
 }
