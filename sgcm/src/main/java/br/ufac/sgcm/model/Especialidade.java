@@ -1,6 +1,8 @@
 package br.ufac.sgcm.model;
 
-public class Especialidade {
+import java.io.Serializable;
+
+public class Especialidade implements Serializable {
     private Long id;
     private String nome;
 
