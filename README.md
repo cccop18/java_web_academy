@@ -109,7 +109,12 @@ Adicione um método chamado obterQuantidadeDeAlunos() que retorna o número tota
 
 Crie um método chamado limparLista() que remove todos os alunos da lista.
 
-Usando Orientação a Objetos, modifique o programa para que, além do nome, cada aluno tenha um número de matrícula, ou seja, crie uma classe Aluno. Todos os métodos devem ser refatorados para continuar funcionando. Os elementos do vetor dinâmico devem ser objetos da classe Aluno
+Usando Orientação a Objetos, modifique o programa para que, além do nome, cada aluno tenha um número de matrícula, ou seja, crie uma classe Aluno. Todos os métodos devem ser refatorados para continuar funcionando. Os elementos do vetor dinâmico devem ser objetos da classe Aluno.
 
 Link de Entrega: https://classroom.github.com/a/keF-wCmR
 Data: 18/07/2025 até 23:59h
+
+2. [INDIVIDUAL] Finalizar as classes `UnidadeController`, `ProfissionalController`, `UnidadeDao` e `ProfissionalDao` de forma semelhante à classe `EspecialideDao` implementando todos os métodos da interface InterfaceDao. 
+
+Link de Entrega: https://classroom.github.com/a/5RjOY-Bs
+Data: 21/07/2024 até 18:00h
