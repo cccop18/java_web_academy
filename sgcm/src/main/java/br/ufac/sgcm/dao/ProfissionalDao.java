@@ -7,7 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.ufac.sgcm.model.Especialidade;
 import br.ufac.sgcm.model.Profissional;
+import br.ufac.sgcm.model.Unidade;
 
 public class ProfissionalDao implements InterfaceDao<Profissional> {
 
@@ -46,5 +48,27 @@ public class ProfissionalDao implements InterfaceDao<Profissional> {
             e.printStackTrace();
         }
         return registros;
+    }
+
+    // Atividade consiste em implementar os métodos sobrescritos
+
+    public List<Profissional> get(String termoBusca) {
+        return null;
+    }
+
+    public Profissional get(Long id) {
+        return null;
+    }
+
+    public int insert(Profissional objeto) {
+        return 0;
+    }
+
+    public int update(Profissional objeto) {
+        return 0;
+    }
+
+    public int delete(Profissional objeto) {
+        return 0;
     }
 }

@@ -1,8 +1,10 @@
 package br.ufac.sgcm.dao;
 
 import java.sql.Connection;
-import java.sql.SQLClientInfoException;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 import br.ufac.sgcm.model.Unidade;
 
@@ -34,4 +36,25 @@ public class UnidadeDao implements InterfaceDao<Unidade> {
         return u;
     }
 
+    // Atividade consiste em implementar os métodos sobrescritos
+
+    public List<Unidade> get(String termoBusca) {
+        return null;
+    }
+
+    public List<Unidade> get() {
+        return null;
+    }
+
+    public int insert(Unidade objeto) {
+        return 0;
+    }
+
+    public int update(Unidade objeto) {
+        return 0;
+    }
+
+    public int delete(Unidade objeto) {
+        return 0;
+    }
 }

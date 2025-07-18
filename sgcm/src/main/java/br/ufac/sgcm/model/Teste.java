@@ -1,12 +1,7 @@
 package br.ufac.sgcm.model;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.util.ArrayList;
 import java.util.List;
 
-import br.ufac.sgcm.dao.ConexaoDB;
 import br.ufac.sgcm.dao.EspecialidadeDao;
 import br.ufac.sgcm.dao.ProfissionalDao;
 
@@ -57,13 +52,17 @@ public class Teste {
         Long i = 8L;
         System.out.println("Especialidade única: " + eDao.get(i));
         // Teste da exclusão
-        Especialidade esp = eDao.get(i); // Especialidade a ser deletada
-        eDao.delete(esp);
+        // Especialidade esp = eDao.get(i); // Especialidade a ser deletada
+        // eDao.delete(esp);
         // Verificando se excluiu a especialidade
-        lista = eDao.get(); // Atualiza a lista
-        for (Especialidade item : lista) {
+        // lista = eDao.get(); // Atualiza a lista
+        // for (Especialidade item : lista) {
+        // System.out.println(item);
+        // }
+        // Testando a lista de profissional
+        ProfissionalDao pDao = new ProfissionalDao();
+        List<Profissional> listaProfissionais = pDao.get();
+        for (Profissional item : listaProfissionais)
             System.out.println(item);
-        }
-
     }
 }
